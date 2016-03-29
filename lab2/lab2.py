@@ -92,7 +92,7 @@ class StockExample(server.App):
 
     df = pd.read_csv(path, index_col=False, header=True, 
                      names=['year', 'week', 'SMN', 'SMT', 'VCI', 'TCI', 'VHI', 'VHI<15', 'VHI<35'])
-    df1 = df[df['year'] == int(year)]
+    df1 = df[(df['year'] == int(year)) & (df['week'] >= int(first)) & (df['week'] <= int(last))]
     return df1
 
 
