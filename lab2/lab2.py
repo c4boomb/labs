@@ -65,6 +65,18 @@ class StockExample(server.App):
                   "key": 'last', 
                   "action_id": 'update_data'},]
 
+    tabs = ["Plot", "Table"]
+
+    outputs = [{ "type" : "plot",
+                    "id" : "plot",
+                    "control_id" : "update_data",
+                    "tab" : "Plot"},
+                { "type" : "table",
+                    "id" : "table_id",
+                    "control_id" : "update_data",
+                    "tab" : "Table",
+                    "on_page_load" : True }]
+
 
 app = StockExample()
 app.launch()
