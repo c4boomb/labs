@@ -10,9 +10,9 @@ class StockExample(server.App):
 
   inputs = [{     "type":'dropdown',
                   "label": 'Index  ', 
-                  "options" : [ {"label": "VCI", "value":"vci"},
-                                {"label": "TCI", "value":"tci"},
-                                {"label": "VHI", "value":"vhi"},],
+                  "options" : [ {"label": "VCI", "value":"VCI"},
+                                {"label": "TCI", "value":"TCI"},
+                                {"label": "VHI", "value":"VHI"},],
                   "key": 'index', 
                   "action_id": "update_data"},
 
@@ -93,6 +93,8 @@ class StockExample(server.App):
     df = pd.read_csv(path, index_col=False, header=True, 
                      names=['year', 'week', 'SMN', 'SMT', 'VCI', 'TCI', 'VHI', 'VHI<15', 'VHI<35'])
     df1 = df[(df['year'] == int(year)) & (df['week'] >= int(first)) & (df['week'] <= int(last))]
+
+    df1 = df1[['week', index]]
     return df1
 
 
