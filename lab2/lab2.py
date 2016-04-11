@@ -93,10 +93,15 @@ class StockExample(server.App):
     df = pd.read_csv(path, index_col=False, header=True, 
                      names=['year', 'week', 'SMN', 'SMT', 'VCI', 'TCI', 'VHI', 'VHI<15', 'VHI<35'])
     df1 = df[(df['year'] == int(year)) & (df['week'] >= int(first)) & (df['week'] <= int(last))]
-
     df1 = df1[['week', index]]
     return df1
 
+  def getPlot(self, params):
+    df = self.getData(params).set_index('week')
+    plt_obj = df.plot()
+    plt_obj.set_ylabel("VHI")
+    fig = plt_obj.get_figure()
+    return fig 
 
 app = StockExample()
 app.launch()
