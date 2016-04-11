@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.6)  11 APR 2016 18:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.6)  11 APR 2016 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1754,13 +1754,13 @@ Package babel Info: Redefining ukrainian shorthand "|
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 24.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 37.
 [2
 
 
@@ -1769,40 +1769,113 @@ Package babel Info: Redefining ukrainian shorthand "~
 ]
 {\Ukrainian \CYRR \cyro \cyrz \cyrd \cyrii \cyrl } 2.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 37.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 28.
+(babel)             in language  on input line 37.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 40.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 40.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+) (../lab2.py
+LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 8.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 48.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 48.
+
 [3
 
 ]
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 97.
+ [4]
+Overfull \hbox (6.85802pt too wide) in paragraph at lines 113--114
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (6.85802pt too wide) in paragraph at lines 139--140
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (17.05562pt too wide) in paragraph at lines 140--141
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (22.15442pt too wide) in paragraph at lines 142--143
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][] 
+ []
+
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 146.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 146.
+[5])
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 42.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 42.
+Package babel Info: Redefining ukrainian shorthand "|
+(babel)             in language  on input line 42.
+Package babel Info: Redefining ukrainian shorthand "~
+(babel)             in language  on input line 42.
+ [6]
 {\Ukrainian \CYRR \cyro \cyrz \cyrd \cyrii \cyrl } 3.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 31.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 34.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 34.
-[4
+(babel)             in language  on input line 45.
+[7
 
 ]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 46.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 46.
 
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 33.
@@ -1814,21 +1887,21 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 50.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 50.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 39.
+(babel)             in language  on input line 50.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 39.
-[5
+(babel)             in language  on input line 50.
+[8
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (./index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 
 
 Package rerunfilecheck Warning: File `index.out' has changed.
@@ -1836,29 +1909,27 @@ Package rerunfilecheck Warning: File `index.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `index.out':
-(rerunfilecheck)             Before: B28C521CCA83501C346460ECC95BA25D;453
-(rerunfilecheck)             After:  9F9B7B252BF62B0C32EF41E60C44D52F;453.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
+(rerunfilecheck)             Before: 9F9B7B252BF62B0C32EF41E60C44D52F;453
+(rerunfilecheck)             After:  59D3DFF64847E446C232BAD2BA32E7A7;445.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 39851 strings out of 493089
- 823783 string characters out of 6134849
- 1021442 words of memory out of 5000000
- 42537 multiletter control sequences out of 15000+600000
- 8665 words of font info for 28 fonts, out of 8000000 for 9000
+ 40343 strings out of 493089
+ 830833 string characters out of 6134849
+ 1071546 words of memory out of 5000000
+ 42854 multiletter control sequences out of 15000+600000
+ 10087 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,11n,79p,1835b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{chapter*.3} has been referenced but does not exis
-t, replaced by a fixed one
-
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on index.pdf (5 pages, 52923 bytes).
+ 70i,12n,100p,1835b,1658s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on index.pdf (8 pages, 109472 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 160 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
