@@ -65,12 +65,27 @@ class StockExample(server.App):
                 "label": 'Last week', 
                 "min" : 1,"max" : 52,"value" : 35,
                 "key": 'last', 
+                "action_id": 'update_data'},
+              { "type":'slider',
+                "label": 'Percent of area', 
+                "min" : 0,"max" : 100,"value" : 0,
+                "key": 'percent', 
+                "action_id": 'update_data'},
+              { "type":'slider',
+                "label": 'Minimum VHI', 
+                "min" : 0,"max" : 100,"value" : 0,
+                "key": 'minimum', 
+                "action_id": 'update_data'},
+              { "type":'slider',
+                "label": 'Maximum VHI', 
+                "min" : 0,"max" : 100,"value" : 100,
+                "key": 'maximum', 
                 "action_id": 'update_data'},]
 
   controls = [{   "type" : "hidden",
                   "id" : "update_data"}]
 
-  tabs = ["Plot", "Table"]
+  tabs = ["Plot", "Table", "Drought"]
 
   outputs = [{ "type" : "plot",
                   "id" : "plot",
@@ -79,7 +94,11 @@ class StockExample(server.App):
               { "type" : "table",
                 "id" : "table_id",
                 "control_id" : "update_data",
-                "tab" : "Table"}]
+                "tab" : "Table"},
+              { "type" : "html",
+                "id" : "html_id",
+                "control_id" : "update_data",
+                "tab" : "Drought"}]
 
   def getData(self, params):
     index = params['index']
@@ -98,7 +117,6 @@ class StockExample(server.App):
 
   def getPlot(self, params):
     index = params['index']
-    region = params['region']
     year = params['year']
     first = params['first']
     last = params['last']
@@ -109,6 +127,20 @@ class StockExample(server.App):
      last=int(last)))
     fig = plt_obj.get_figure()
     return fig 
+
+  def getHTML(self, params):
+    region = params['region']
+    minimum = params['minimum']
+    maximum = params['maximum']
+    percent = params['percent']
+
+    path = '/home/helga/ipt/proga/lab1/clean_data/06_03_5pm{}.csv'.format(region)
+    df = pd.read_csv(path, index_col=False, header=True, 
+                     names=['year', 'week', 'SMN', 'SMT', 'VCI', 'TCI', 'VHI', 'VHI<15', 'VHI<35'])
+    df1 = df[(df['VHI'] < int(maximum)) & (df['VHI'] > int(minimum)) & (df['VHI<15'] > int(percent))]
+    df1 = df1[['year', 'VHI', 'VHI<15']]
+    return 'Years with percent of area > {percent} with drought: {years}'.format(percent=int(percent), 
+      years = pd.unique(df1.year.ravel()))
 
 app = StockExample()
 app.launch()
