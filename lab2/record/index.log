@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.6)  11 APR 2016 19:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.6)  11 APR 2016 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1815,25 +1815,25 @@ Package babel Info: Redefining ukrainian shorthand "|
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 97.
  [4]
-Overfull \hbox (6.85802pt too wide) in paragraph at lines 113--114
+Overfull \hbox (6.85802pt too wide) in paragraph at lines 116--117
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (6.85802pt too wide) in paragraph at lines 139--140
+Overfull \hbox (6.85802pt too wide) in paragraph at lines 142--143
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (17.05562pt too wide) in paragraph at lines 140--141
+Overfull \hbox (17.05562pt too wide) in paragraph at lines 143--144
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (22.15442pt too wide) in paragraph at lines 142--143
+Overfull \hbox (22.15442pt too wide) in paragraph at lines 145--146
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] 
  []
@@ -1861,21 +1861,27 @@ Package babel Info: Redefining ukrainian shorthand "|
 (babel)             in language  on input line 42.
 Package babel Info: Redefining ukrainian shorthand "~
 (babel)             in language  on input line 42.
+
+Overfull \hbox (3.69711pt too wide) in paragraph at lines 43--44
+[]\T2A/cmr/m/n/14.4 Класс Si-mpleApp на-сле-ду-ет сер-вер. В ра-бо-те было сде-
+ла-но веб-приложение,
+ []
+
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 51.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 51.
 [7
 
 ]
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 52.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 46.
+(babel)             in language  on input line 52.
 
 
 Package caption Warning: Unused \captionsetup[subfigure] on input line 33.
@@ -1887,36 +1893,29 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining ukrainian shorthand "|
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 56.
 Package babel Info: Redefining ukrainian shorthand "~
-(babel)             in language  on input line 50.
+(babel)             in language  on input line 56.
 [8
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
  (./index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
-
-
-Package rerunfilecheck Warning: File `index.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `index.out':
-(rerunfilecheck)             Before: 9F9B7B252BF62B0C32EF41E60C44D52F;453
-(rerunfilecheck)             After:  59D3DFF64847E446C232BAD2BA32E7A7;445.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package rerunfilecheck Info: File `index.out' has not changed.
+(rerunfilecheck)             Checksum: 59D3DFF64847E446C232BAD2BA32E7A7;445.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 40343 strings out of 493089
- 830833 string characters out of 6134849
- 1071546 words of memory out of 5000000
+ 40346 strings out of 493089
+ 830881 string characters out of 6134849
+ 1072546 words of memory out of 5000000
  42854 multiletter control sequences out of 15000+600000
  10087 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1926,10 +1925,10 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on index.pdf (8 pages, 109472 bytes).
+Output written on index.pdf (8 pages, 115149 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
- 160 named destinations out of 1000 (max. 500000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 248 compressed objects within 3 object streams
+ 163 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
