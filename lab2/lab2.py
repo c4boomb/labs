@@ -66,16 +66,19 @@ class StockExample(server.App):
                 "min" : 1,"max" : 52,"value" : 35,
                 "key": 'last', 
                 "action_id": 'update_data'},
+
               { "type":'slider',
                 "label": 'Percent of area', 
                 "min" : 0,"max" : 100,"value" : 0,
                 "key": 'percent', 
                 "action_id": 'update_data'},
+
               { "type":'slider',
                 "label": 'Minimum VHI', 
                 "min" : 0,"max" : 100,"value" : 0,
                 "key": 'minimum', 
                 "action_id": 'update_data'},
+                
               { "type":'slider',
                 "label": 'Maximum VHI', 
                 "min" : 0,"max" : 100,"value" : 100,
@@ -123,8 +126,8 @@ class StockExample(server.App):
     df = self.getData(params).set_index('week')
     plt_obj = df.plot()
     plt_obj.set_ylabel(index)
-    plt_obj.set_title('Index {index} for {year} from {first} to {last} weeks'.format(index=index, year=int(year), first=int(first),
-     last=int(last)))
+    plt_obj.set_title('Index {index} for {year} from {first} to {last} weeks'.format(index=index, 
+      year=int(year), first=int(first), last=int(last)))
     fig = plt_obj.get_figure()
     return fig 
 
