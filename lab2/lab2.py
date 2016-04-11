@@ -97,9 +97,16 @@ class StockExample(server.App):
     return df1
 
   def getPlot(self, params):
+    index = params['index']
+    region = params['region']
+    year = params['year']
+    first = params['first']
+    last = params['last']
     df = self.getData(params).set_index('week')
     plt_obj = df.plot()
-    plt_obj.set_ylabel("VHI")
+    plt_obj.set_ylabel(index)
+    plt_obj.set_title('Index {index} for {year} from {first} to {last} weeks'.format(index=index, year=int(year), first=int(first),
+     last=int(last)))
     fig = plt_obj.get_figure()
     return fig 
 
