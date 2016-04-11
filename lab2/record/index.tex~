@@ -1,0 +1,90 @@
+\input{../common/head.tex}
+\input{config.tex}
+
+\begin{document}
+
+\import{1_title/}{title.tex}
+
+\clearpage
+
+\pagenumbering{gobble}
+%\import{3_abstract/}{main.tex}
+
+%\pagestyle{empty}
+%\thispagestyle{empty}
+%\tableofcontents
+
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\setcounter{page}{2}
+
+\clearpage
+
+\chapter{Задание}
+
+Необходимо измерить скорость обработки элементов блока памяти в зависимости от его размера при разных условиях. Используются следующие условные обозначения:
+\begin{itemize}
+\item L1.size --- размер кэш-памяти первого уровня;
+\item L2.size --- размер кэш-памяти второго уровня.
+\end{itemize}
+В качестве шага инкремента размера блока достаточно взять 1 килобайт.
+
+Определить размер кэш-памяти процессора, на котором будут проводиться измерения.
+
+Исследовать скорость обработки к элементам блока памяти при использовании операции записи. Размер блока памяти должен изменяться от 10\% от L1.size до 200\% от L1.size.
+
+Полученные результаты необходимо представить в графическом виде.
+
+Реализовать аналогичный алгоритм на языке высокого уровня (Java, Python, Ruby, и т.п.). Сравнить результаты измерений.
+
+\chapter{Листинг кода}
+\lstset{inputencoding=utf8, extendedchars=\true}
+
+Листинг кода программы на языке C++:
+\lstset{inputencoding=utf8, extendedchars=\true}
+\lstinputlisting[language=C++,
+                 basicstyle=\ttfamily\scriptsize]{lab5.c}
+
+Листинг кода программы на языке Python:
+\lstset{inputencoding=utf8, extendedchars=\true}
+\lstinputlisting[language=Python,
+                 basicstyle=\ttfamily\scriptsize]{lab5.py}
+
+
+\chapter{Результаты}
+Результаты на языке С++:
+\lstset{inputencoding=utf8, extendedchars=\true}
+\lstinputlisting[language=bash,
+                 basicstyle=\ttfamily\scriptsize]{lab5_c.txt}
+
+Результаты на языке Python:
+\lstset{inputencoding=utf8, extendedchars=\true}
+\lstinputlisting[language=bash,
+                 basicstyle=\ttfamily\scriptsize]{lab5_py.txt}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{chart_c.png}
+  \caption{Результат на языке С++}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{chart_python.png}
+  \caption{Результат на языке Python}
+\end{figure}
+
+
+
+\chapter*{Выводы}
+\addcontentsline{toc}{chapter}{Выводы}
+Размер кэш памяти процессора, на котором проводились измерения:
+\begin{itemize}
+\item L1.size --- 32K;
+\item L2.size --- 1024K.
+\end{itemize}
+Реализаиция задания на языке программирования С++ показала, что время обработки блоков памяти зависит от их размеров. Время больше при обработке каждого четвёртого блока (с размером 4КБ, 8КБ, 12 КБ и т.д.), что видно на рисунке 3.1. Результаты обработки блоков памяти на языке программирования Python не дали зависимости времени обработки от размеров блоков (рис. 3.2).
+
+
+\end{document}
